@@ -1,85 +1,118 @@
 ### Step 2A
-
+/c/Users/jacob
 
 ### Step 2B
-
+cd Desktop
 
 ### Step 2C
-
+cd unit-1-git-project
 
 ### Step 2D
-
+/c/Users/jacob/desktop/unit-1-git-project
 
 ### Step 2E
-
+ls
 
 ### Step 2F
-
+my-steps.txt
 
 ### Step 2G
-
+cd ~
+cd ..
+cd ..
+cd ..
 
 ### Step 2H
-
+cd /
 
 ### Step 2I
+$ ls -a
+./                 bin/  git-bash.exe*  tmp/           usr/
+../                cmd/  git-cmd.exe*   unins000.dat
+LICENSE.txt        dev/  mingw64/       unins000.exe*
+ReleaseNotes.html  etc/  proc/          unins000.msg
 
 
 ### Step 2J
-
+cd ~
 
 ### Step 2K
-
-
+cd Desktop/
+cd Unit-1-git-project 
+	or....
+cd Desktop/Unit-1-git-project/
 
 ### Step 3A
-
+mkdir veggies
+mkdir meats
+mkdir desserts
 
 ### Step 3B
-
+mv desserts sweets
 
 ### Step 3C
-
+mkdir proteins
 
 ### Step 3D
-
+mv meats proteins
 
 ### Step 3E
-
+cd veggies
+touch carrot.txt
+touch pea.txt
 
 ### Step 3F
-
+cd ..
+cd sweets
+touch cookie.txt
 
 ### Step 3G
-
+mv cookie.txt donut.txt
 
 ### Step 3H
-
+cd ..
+touch thing.txt
 
 ### Step 3I
-
+cp thing.txt tofu.txt
 
 ### Step 3J
-
+mv tofu.txt proteins
 
 ### Step 3K
-
+cp thing.txt crab.txt
+mv crab.txt proteins
+cd proteins 
+mv crab.txt meats
 
 ### Step 3L
-
+cd ..
+rm thing.txt
 
 ### Step 3M
-
+cp -r veggies plants 
 
 ### Step 3N
-
-
+mkdir drinks
+rm -r drinks
 
 ### Step 4
-
+Within: ~/Desktop/Unit-1-git-project enter 
+git init ( This will create the empty repository)
+git add . (This will submit to stagging)
+git status (This will allow you to check and make sure everything made it to stagging. Green text indicates this)
+git commit -m "First commit for <project name/file name>" 
 
 ### Step 5
+create new repository by logging into github.com 
+name the repository
+copy and past option 3 into gitbash
+option 3 is as follows 
+git remote add origin https://github.com/Jacob-Coffey/Unit-1-project.git
+git branch -M main
+git push -u origin main
 
+you will verify your credentials and boom your first project has been uploaded
 
 ### Step 6
 
